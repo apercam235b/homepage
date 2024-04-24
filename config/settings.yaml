@@ -1,0 +1,18 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+layout:
+  Contenedores Docker:
+    style: colum
+  Servicios de Google:
+    style: colum
+  Utilidades:
+    style: colum
+  Monitoreo:
+    style: row
+    columns: 4

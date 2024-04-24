@@ -1,0 +1,663 @@
+[2024-04-23T12:00:24.008Z] info: docker.yaml was copied to the config folder
+[2024-04-23T12:00:24.016Z] info: services.yaml was copied to the config folder
+[2024-04-23T12:00:24.018Z] info: bookmarks.yaml was copied to the config folder
+[2024-04-23T12:00:24.020Z] info: widgets.yaml was copied to the config folder
+[2024-04-23T12:00:24.023Z] info: custom.css was copied to the config folder
+[2024-04-23T12:00:24.024Z] info: custom.js was copied to the config folder
+[2024-04-23T12:00:25.321Z] info: kubernetes.yaml was copied to the config folder
+[2024-04-24T06:30:23.574Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2024-04-24T06:30:23.577Z] error: YAMLException: duplicated mapping key (9:1)
+
+  6 |    host: 127.0.0.1
+  7 |    port: 2375
+  8 | 
+  9 | my-docker:
+------^
+ 10 |    socket: /var/run/docker.sock
+[2024-04-24T06:30:23.640Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2024-04-24T06:30:23.642Z] error: YAMLException: duplicated mapping key (9:1)
+
+  6 |    host: 127.0.0.1
+  7 |    port: 2375
+  8 | 
+  9 | my-docker:
+------^
+ 10 |    socket: /var/run/docker.sock
+[2024-04-24T06:30:23.909Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2024-04-24T06:30:23.911Z] error: YAMLException: duplicated mapping key (9:1)
+
+  6 |    host: 127.0.0.1
+  7 |    port: 2375
+  8 | 
+  9 | my-docker:
+------^
+ 10 |    socket: /var/run/docker.sock
+[2024-04-24T06:30:25.822Z] error: Failed to discover services, please check docker.yaml for errors or remove example entries.
+[2024-04-24T06:30:25.825Z] error: YAMLException: duplicated mapping key (9:1)
+
+  6 |    host: 127.0.0.1
+  7 |    port: 2375
+  8 | 
+  9 | my-docker:
+------^
+ 10 |    socket: /var/run/docker.sock
+[2024-04-24T06:34:52.261Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T06:34:53.003Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T06:34:53.943Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T06:34:54.862Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T06:34:59.451Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T06:35:00.521Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T06:35:01.419Z] error: <service-helpers> Error constructing service using homepage labels for container 'whoami'. Ensure required labels are present.
+[2024-04-24T10:01:58.805Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-04-24T10:01:58.811Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: google
+ 12 |     target: _blank
+ 13 | 
+ 14 | widget:
+------^
+ 15 |     type: traefik
+ 16 |     url: http://traefik.alvaro. ...
+[2024-04-24T10:01:58.875Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-04-24T10:01:58.878Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: google
+ 12 |     target: _blank
+ 13 | 
+ 14 | widget:
+------^
+ 15 |     type: traefik
+ 16 |     url: http://traefik.alvaro. ...
+[2024-04-24T10:01:59.183Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-04-24T10:01:59.186Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: google
+ 12 |     target: _blank
+ 13 | 
+ 14 | widget:
+------^
+ 15 |     type: traefik
+ 16 |     url: http://traefik.alvaro. ...
+[2024-04-24T10:02:04.511Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-04-24T10:02:04.512Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: google
+ 12 |     target: _blank
+ 13 | 
+ 14 | widget:
+------^
+ 15 |     type: traefik
+ 16 |     url: http://traefik.alvaro. ...
+[2024-04-24T10:02:11.219Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-04-24T10:02:11.221Z] error: end of the stream or a document separator is expected (14:1)
+
+ 11 |     provider: google
+ 12 |     target: _blank
+ 13 | 
+ 14 | widget:
+------^
+ 15 |     type: traefik
+ 16 |     url: http://traefik.alvaro. ...
+[2024-04-24T10:08:23.899Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:08:27.460Z] error: <httpProxy> Error calling http://traefik.host.or.ip/api/overview...
+[2024-04-24T10:08:27.475Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.host.or.ip'
+  }
+]
+[2024-04-24T10:08:46.942Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:08:47.051Z] error: <httpProxy> Error calling http://traefik.host.or.ip/api/overview...
+[2024-04-24T10:08:47.053Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.host.or.ip'
+  }
+]
+[2024-04-24T10:08:47.565Z] error: <httpProxy> Error calling http://traefik.host.or.ip/api/overview...
+[2024-04-24T10:08:47.567Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.host.or.ip'
+  }
+]
+[2024-04-24T10:09:39.637Z] error: <httpProxy> Error calling http://traefik.host.or.ip/api/overview...
+[2024-04-24T10:09:39.642Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.host.or.ip'
+  }
+]
+[2024-04-24T10:09:40.214Z] error: <httpProxy> Error calling http://traefik.host.or.ip/api/overview...
+[2024-04-24T10:09:40.216Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.host.or.ip'
+  }
+]
+[2024-04-24T10:10:13.839Z] error: <httpProxy> Error calling http://traefik.host.or.ip/api/overview...
+[2024-04-24T10:10:13.842Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.host.or.ip
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.host.or.ip'
+  }
+]
+[2024-04-24T10:10:23.677Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview/api/overview...
+[2024-04-24T10:10:23.679Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:10:24.100Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview/api/overview...
+[2024-04-24T10:10:24.102Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:10:41.741Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab/api/overview/api/overview...
+[2024-04-24T10:10:41.742Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:10:42.236Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab/api/overview/api/overview...
+[2024-04-24T10:10:42.239Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:10:58.662Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab//api/overview...
+[2024-04-24T10:10:58.663Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:10:59.167Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab//api/overview...
+[2024-04-24T10:10:59.170Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:11:16.891Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab/api/overview...
+[2024-04-24T10:11:16.892Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:11:17.295Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab/api/overview...
+[2024-04-24T10:11:17.296Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:11:49.805Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:11:49.806Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:11:50.341Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:11:50.343Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:12:52.871Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:12:52.872Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:13:19.995Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:13:19.996Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:13:20.754Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:13:20.756Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:13:39.231Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:13:39.239Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:14:04.511Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:14:04.512Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:14:35.232Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8081/api/overview...
+[2024-04-24T10:14:35.233Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:14:35.669Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:14:35.729Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8081/api/overview...
+[2024-04-24T10:14:35.730Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:15:24.560Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:15:24.676Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8081/api/overview...
+[2024-04-24T10:15:24.677Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:15:44.496Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:15:44.920Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:16:13.290Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:17:08.793Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:17:08.910Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:17:08.912Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:17:09.257Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:17:09.319Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:17:09.320Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:17:21.823Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'conn')
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:89:86)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2024-04-24T10:17:21.925Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:17:21.927Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:17:22.344Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:17:22.345Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:17:32.779Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:17:32.780Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:17:33.228Z] error: <httpProxy> Error calling http://traefik.alvaro.civica.lab:8080/api/overview...
+[2024-04-24T10:17:33.229Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND traefik.alvaro.civica.lab
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'traefik.alvaro.civica.lab'
+  }
+]
+[2024-04-24T10:36:50.611Z] error: bad indentation of a mapping entry (51:17)
+
+ 48 |           type: calendar
+ 49 |           integrations: # optional
+ 50 |             - type: sonarr # active widget type ...
+ 51 |                 service_group: Media # group na ...
+----------------------^
+ 52 |                 service_name: Sonarr # service  ...
+ 53 |                 color: teal # optional - defaul ...
+[2024-04-24T10:36:50.697Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T10:36:50.698Z] error: YAMLException: bad indentation of a mapping entry (51:17)
+
+ 48 |           type: calendar
+ 49 |           integrations: # optional
+ 50 |             - type: sonarr # active widget type ...
+ 51 |                 service_group: Media # group na ...
+----------------------^
+ 52 |                 service_name: Sonarr # service  ...
+ 53 |                 color: teal # optional - defaul ...
+[2024-04-24T10:36:50.726Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T10:36:50.728Z] error: YAMLException: bad indentation of a mapping entry (51:17)
+
+ 48 |           type: calendar
+ 49 |           integrations: # optional
+ 50 |             - type: sonarr # active widget type ...
+ 51 |                 service_group: Media # group na ...
+----------------------^
+ 52 |                 service_name: Sonarr # service  ...
+ 53 |                 color: teal # optional - defaul ...
+[2024-04-24T10:36:51.256Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T10:36:51.265Z] error: YAMLException: bad indentation of a mapping entry (51:17)
+
+ 48 |           type: calendar
+ 49 |           integrations: # optional
+ 50 |             - type: sonarr # active widget type ...
+ 51 |                 service_group: Media # group na ...
+----------------------^
+ 52 |                 service_name: Sonarr # service  ...
+ 53 |                 color: teal # optional - defaul ...
+[2024-04-24T10:39:08.138Z] error: undefined
+[2024-04-24T10:39:08.199Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T10:39:08.201Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-04-24T10:39:08.229Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T10:39:08.231Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-04-24T10:39:08.623Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T10:39:08.624Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-04-24T11:28:39.543Z] error: <httpProxy> Error calling http://172.24.0.4:8080/api/overview...
+[2024-04-24T11:28:39.549Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.4:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.4',
+    port: 8080
+  }
+]
+[2024-04-24T11:28:40.674Z] error: <httpProxy> Error calling http://172.24.0.4:8080/api/overview...
+[2024-04-24T11:28:40.675Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.24.0.4:8080
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.24.0.4',
+    port: 8080
+  }
+]
+[2024-04-24T11:52:06.340Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T11:52:06.342Z] error: YAMLException: bad indentation of a sequence entry (52:13)
+
+ 49 |           #password: password # optional
+ 50 | 
+ 51 |     - Uptime-Kuma
+ 52 |         icon: uptime-kuma.png
+------------------^
+ 53 |         href: http://uptime.alvaro.civica.lab
+ 54 |         widget:
+[2024-04-24T11:52:06.419Z] error: bad indentation of a sequence entry (52:13)
+
+ 49 |           #password: password # optional
+ 50 | 
+ 51 |     - Uptime-Kuma
+ 52 |         icon: uptime-kuma.png
+------------------^
+ 53 |         href: http://uptime.alvaro.civica.lab
+ 54 |         widget:
+[2024-04-24T11:52:06.443Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T11:52:06.443Z] error: YAMLException: bad indentation of a sequence entry (52:13)
+
+ 49 |           #password: password # optional
+ 50 | 
+ 51 |     - Uptime-Kuma
+ 52 |         icon: uptime-kuma.png
+------------------^
+ 53 |         href: http://uptime.alvaro.civica.lab
+ 54 |         widget:
+[2024-04-24T11:52:06.861Z] error: Failed to load services.yaml, please check for errors
+[2024-04-24T11:52:06.861Z] error: YAMLException: bad indentation of a sequence entry (52:13)
+
+ 49 |           #password: password # optional
+ 50 | 
+ 51 |     - Uptime-Kuma
+ 52 |         icon: uptime-kuma.png
+------------------^
+ 53 |         href: http://uptime.alvaro.civica.lab
+ 54 |         widget:
+[2024-04-24T12:23:53.618Z] warn: Invalid data for widget 'uptimekuma' endpoint 'status-page/heartbeat':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token < in JSON at position 0
+Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,10,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,10,60,104,101,97,100,62,10,32,32,32,32,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,85,84,70,45,56,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,32,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,46,48,44,32,118,105,101,119,112,111,114,116,45,102,105,116,61,99,111,118,101,114,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,34,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,115,118,103,43,120,109,108,34,32,104,114,101,102,61,34,47,105,99,111,110,46,115,118,103,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,109,97,110,105,102,101,115,116,46,106,115,111,110,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,105,100,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,85,112,116,105,109,101,32,75,117,109,97,32,109,111,110,105,116,111,114,105,110,103,32,116,111,111,108,34,32,47,62,10,32,32,32,32,60,116,105,116,108,101,62,85,112,116,105,109,101,32,75,117,109,97,60,47,116,105,116,108,101,62,10,32,32,32,32,60,115,116,121,108,101,62,32,32,32,32,32,32,32,32,46,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,32,123,10,32,32,32,32,32,32,32,32,32,32,32,32,102,111,110,116,45,115,105,122,101,58,32,50,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,116,101,120,116,45,97,108,105,103,110,58,32,99,101,110,116,101,114,59,10,32,32,32,32,32,32,32,32,32,32,32,32,112,97,100,100,105,110,103,58,32,49,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,120,45,119,105,100,116,104,58,32,53,48,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,114,103,105,110,58,32,48,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,60,47,115,116,121,108,101,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,32,99,114,111,115,115,111,114,105,103,105,110,32,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,66,82,116,105,68,109,103,85,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,99,114,111,115,115,111,114,105,103,105,110,32,104,114,101,102,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,67,108,114,90,48,83,97,82,46,99,115,115,34,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,105,109,112,111,114,116,46,109,101,116,97,46,117,114,108,59,105,109,112,111,114,116,40,34,95,34,41,46,99,97,116,99,104,40,40,41,61,62,49,41,59,97,115,121,110,99,32,102,117,110,99,116,105,111,110,42,32,103,40,41,123,125,59,105,102,40,108,111,99,97,116,105,111,110,46,112,114,111,116,111,99,111,108,33,61,34,102,105,108,101,58,34,41,123,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,61,116,114,117,101,125,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,33,102,117,110,99,116,105,111,110,40,41,123,105,102,40,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,41,114,101,116,117,114,110,59,99,111,110,115,111,108,101,46,119,97,114,110,40,34,118,105,116,101,58,32,108,111,97,100,105,110,103,32,108,101,103,97,99,121,32,99,104,117,110,107,115,44,32,115,121,110,116,97,120,32,101,114,114,111,114,32,97,98,111,118,101,32,97,110,100,32,116,104,101,32,115,97,109,101,32,101,114,114,111,114,32,98,101,108,111,119,32,115,104,111,117,108,100,32,98,101,32,105,103,110,111,114,101,100,34,41,59,118,97,114,32,101,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,41,44,110,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,110,46,115,114,99,61,101,46,115,114,99,44,110,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,125,44,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,110,41,125,40,41,59,60,47,115,99,114,105,112,116,62,10,60,47,104,101,97,100,62,10,60,98,111,100,121,62,10,60,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,99,108,97,115,115,61,34,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,34,62,10,32,32,32,32,83,111,114,114,121,44,32,121,111,117,32,100,111,110,39,116,32,115,101,101,109,32,116,111,32,104,97,118,101,32,74,97,118,97,83,99,114,105,112,116,32,101,110,97,98,108,101,100,32,111,114,32,121,111,117,114,32,98,114,111,119,115,101,114,10,32,32,32,32,100,111,101,115,110,39,116,32,115,117,112,112,111,114,116,32,105,116,46,60,98,114,32,47,62,84,104,105,115,32,119,101,98,115,105,116,101,32,114,101,113,117,105,114,101,115,32,74,97,118,97,83,99,114,105,112,116,32,116,111,32,102,117,110,99,116,105,111,110,46,10,32,32,32,32,80,108,101,97,115,101,32,101,110,97,98,108,101,32,74,97,118,97,83,99,114,105,112,116,32,105,110,32,121,111,117,114,32,98,114,111,119,115,101,114,32,115,101,116,116,105,110,103,115,32,116,111,32,99,111,110,116,105,110,117,101,46,10,60,47,100,105,118,62,10,60,47,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,105,100,61,34,97,112,112,34,62,60,47,100,105,118,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,62,33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,101,61,100,111,99,117,109,101,110,116,44,116,61,101,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,105,102,40,33,40,34,110,111,77,111,100,117,108,101,34,105,110,32,116,41,38,38,34,111,110,98,101,102,111,114,101,108,111,97,100,34,105,110,32,116,41,123,118,97,114,32,110,61,33,49,59,101,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,34,98,101,102,111,114,101,108,111,97,100,34,44,40,102,117,110,99,116,105,111,110,40,101,41,123,105,102,40,101,46,116,97,114,103,101,116,61,61,61,116,41,110,61,33,48,59,101,108,115,101,32,105,102,40,33,101,46,116,97,114,103,101,116,46,104,97,115,65,116,116,114,105,98,117,116,101,40,34,110,111,109,111,100,117,108,101,34,41,124,124,33,110,41,114,101,116,117,114,110,59,101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,125,41,44,33,48,41,44,116,46,116,121,112,101,61,34,109,111,100,117,108,101,34,44,116,46,115,114,99,61,34,46,34,44,101,46,104,101,97,100,46,97,112,112,101,110,100,67,104,105,108,100,40,116,41,44,116,46,114,101,109,111,118,101,40,41,125,125,40,41,59,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,32,115,114,99,61,34,47,97,115,115,101,116,115,47,112,111,108,121,102,105,108,108,115,45,108,101,103,97,99,121,45,67,79,113,66,57,109,78,98,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,34,32,100,97,116,97,45,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,108,101,103,97,99,121,45,67,76,54,103,50,75,108,67,46,106,115,34,62,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,60,47,115,99,114,105,112,116,62,10,60,47,98,111,100,121,62,10,60,47,104,116,109,108,62,10]}
+[2024-04-24T12:23:54.182Z] warn: Invalid data for widget 'uptimekuma' endpoint 'status-page/heartbeat':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token < in JSON at position 0
+Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,10,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,10,60,104,101,97,100,62,10,32,32,32,32,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,85,84,70,45,56,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,32,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,46,48,44,32,118,105,101,119,112,111,114,116,45,102,105,116,61,99,111,118,101,114,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,34,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,115,118,103,43,120,109,108,34,32,104,114,101,102,61,34,47,105,99,111,110,46,115,118,103,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,109,97,110,105,102,101,115,116,46,106,115,111,110,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,105,100,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,85,112,116,105,109,101,32,75,117,109,97,32,109,111,110,105,116,111,114,105,110,103,32,116,111,111,108,34,32,47,62,10,32,32,32,32,60,116,105,116,108,101,62,85,112,116,105,109,101,32,75,117,109,97,60,47,116,105,116,108,101,62,10,32,32,32,32,60,115,116,121,108,101,62,32,32,32,32,32,32,32,32,46,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,32,123,10,32,32,32,32,32,32,32,32,32,32,32,32,102,111,110,116,45,115,105,122,101,58,32,50,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,116,101,120,116,45,97,108,105,103,110,58,32,99,101,110,116,101,114,59,10,32,32,32,32,32,32,32,32,32,32,32,32,112,97,100,100,105,110,103,58,32,49,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,120,45,119,105,100,116,104,58,32,53,48,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,114,103,105,110,58,32,48,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,60,47,115,116,121,108,101,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,32,99,114,111,115,115,111,114,105,103,105,110,32,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,66,82,116,105,68,109,103,85,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,99,114,111,115,115,111,114,105,103,105,110,32,104,114,101,102,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,67,108,114,90,48,83,97,82,46,99,115,115,34,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,105,109,112,111,114,116,46,109,101,116,97,46,117,114,108,59,105,109,112,111,114,116,40,34,95,34,41,46,99,97,116,99,104,40,40,41,61,62,49,41,59,97,115,121,110,99,32,102,117,110,99,116,105,111,110,42,32,103,40,41,123,125,59,105,102,40,108,111,99,97,116,105,111,110,46,112,114,111,116,111,99,111,108,33,61,34,102,105,108,101,58,34,41,123,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,61,116,114,117,101,125,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,33,102,117,110,99,116,105,111,110,40,41,123,105,102,40,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,41,114,101,116,117,114,110,59,99,111,110,115,111,108,101,46,119,97,114,110,40,34,118,105,116,101,58,32,108,111,97,100,105,110,103,32,108,101,103,97,99,121,32,99,104,117,110,107,115,44,32,115,121,110,116,97,120,32,101,114,114,111,114,32,97,98,111,118,101,32,97,110,100,32,116,104,101,32,115,97,109,101,32,101,114,114,111,114,32,98,101,108,111,119,32,115,104,111,117,108,100,32,98,101,32,105,103,110,111,114,101,100,34,41,59,118,97,114,32,101,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,41,44,110,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,110,46,115,114,99,61,101,46,115,114,99,44,110,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,125,44,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,110,41,125,40,41,59,60,47,115,99,114,105,112,116,62,10,60,47,104,101,97,100,62,10,60,98,111,100,121,62,10,60,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,99,108,97,115,115,61,34,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,34,62,10,32,32,32,32,83,111,114,114,121,44,32,121,111,117,32,100,111,110,39,116,32,115,101,101,109,32,116,111,32,104,97,118,101,32,74,97,118,97,83,99,114,105,112,116,32,101,110,97,98,108,101,100,32,111,114,32,121,111,117,114,32,98,114,111,119,115,101,114,10,32,32,32,32,100,111,101,115,110,39,116,32,115,117,112,112,111,114,116,32,105,116,46,60,98,114,32,47,62,84,104,105,115,32,119,101,98,115,105,116,101,32,114,101,113,117,105,114,101,115,32,74,97,118,97,83,99,114,105,112,116,32,116,111,32,102,117,110,99,116,105,111,110,46,10,32,32,32,32,80,108,101,97,115,101,32,101,110,97,98,108,101,32,74,97,118,97,83,99,114,105,112,116,32,105,110,32,121,111,117,114,32,98,114,111,119,115,101,114,32,115,101,116,116,105,110,103,115,32,116,111,32,99,111,110,116,105,110,117,101,46,10,60,47,100,105,118,62,10,60,47,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,105,100,61,34,97,112,112,34,62,60,47,100,105,118,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,62,33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,101,61,100,111,99,117,109,101,110,116,44,116,61,101,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,105,102,40,33,40,34,110,111,77,111,100,117,108,101,34,105,110,32,116,41,38,38,34,111,110,98,101,102,111,114,101,108,111,97,100,34,105,110,32,116,41,123,118,97,114,32,110,61,33,49,59,101,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,34,98,101,102,111,114,101,108,111,97,100,34,44,40,102,117,110,99,116,105,111,110,40,101,41,123,105,102,40,101,46,116,97,114,103,101,116,61,61,61,116,41,110,61,33,48,59,101,108,115,101,32,105,102,40,33,101,46,116,97,114,103,101,116,46,104,97,115,65,116,116,114,105,98,117,116,101,40,34,110,111,109,111,100,117,108,101,34,41,124,124,33,110,41,114,101,116,117,114,110,59,101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,125,41,44,33,48,41,44,116,46,116,121,112,101,61,34,109,111,100,117,108,101,34,44,116,46,115,114,99,61,34,46,34,44,101,46,104,101,97,100,46,97,112,112,101,110,100,67,104,105,108,100,40,116,41,44,116,46,114,101,109,111,118,101,40,41,125,125,40,41,59,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,32,115,114,99,61,34,47,97,115,115,101,116,115,47,112,111,108,121,102,105,108,108,115,45,108,101,103,97,99,121,45,67,79,113,66,57,109,78,98,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,34,32,100,97,116,97,45,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,108,101,103,97,99,121,45,67,76,54,103,50,75,108,67,46,106,115,34,62,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,60,47,115,99,114,105,112,116,62,10,60,47,98,111,100,121,62,10,60,47,104,116,109,108,62,10]}
+[2024-04-24T12:23:54.188Z] warn: Invalid data for widget 'uptimekuma' endpoint 'status-page':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token < in JSON at position 0
+Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,10,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,10,60,104,101,97,100,62,10,32,32,32,32,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,85,84,70,45,56,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,32,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,46,48,44,32,118,105,101,119,112,111,114,116,45,102,105,116,61,99,111,118,101,114,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,34,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,115,118,103,43,120,109,108,34,32,104,114,101,102,61,34,47,105,99,111,110,46,115,118,103,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,109,97,110,105,102,101,115,116,46,106,115,111,110,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,105,100,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,85,112,116,105,109,101,32,75,117,109,97,32,109,111,110,105,116,111,114,105,110,103,32,116,111,111,108,34,32,47,62,10,32,32,32,32,60,116,105,116,108,101,62,85,112,116,105,109,101,32,75,117,109,97,60,47,116,105,116,108,101,62,10,32,32,32,32,60,115,116,121,108,101,62,32,32,32,32,32,32,32,32,46,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,32,123,10,32,32,32,32,32,32,32,32,32,32,32,32,102,111,110,116,45,115,105,122,101,58,32,50,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,116,101,120,116,45,97,108,105,103,110,58,32,99,101,110,116,101,114,59,10,32,32,32,32,32,32,32,32,32,32,32,32,112,97,100,100,105,110,103,58,32,49,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,120,45,119,105,100,116,104,58,32,53,48,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,114,103,105,110,58,32,48,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,60,47,115,116,121,108,101,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,32,99,114,111,115,115,111,114,105,103,105,110,32,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,66,82,116,105,68,109,103,85,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,99,114,111,115,115,111,114,105,103,105,110,32,104,114,101,102,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,67,108,114,90,48,83,97,82,46,99,115,115,34,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,105,109,112,111,114,116,46,109,101,116,97,46,117,114,108,59,105,109,112,111,114,116,40,34,95,34,41,46,99,97,116,99,104,40,40,41,61,62,49,41,59,97,115,121,110,99,32,102,117,110,99,116,105,111,110,42,32,103,40,41,123,125,59,105,102,40,108,111,99,97,116,105,111,110,46,112,114,111,116,111,99,111,108,33,61,34,102,105,108,101,58,34,41,123,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,61,116,114,117,101,125,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,33,102,117,110,99,116,105,111,110,40,41,123,105,102,40,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,41,114,101,116,117,114,110,59,99,111,110,115,111,108,101,46,119,97,114,110,40,34,118,105,116,101,58,32,108,111,97,100,105,110,103,32,108,101,103,97,99,121,32,99,104,117,110,107,115,44,32,115,121,110,116,97,120,32,101,114,114,111,114,32,97,98,111,118,101,32,97,110,100,32,116,104,101,32,115,97,109,101,32,101,114,114,111,114,32,98,101,108,111,119,32,115,104,111,117,108,100,32,98,101,32,105,103,110,111,114,101,100,34,41,59,118,97,114,32,101,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,41,44,110,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,110,46,115,114,99,61,101,46,115,114,99,44,110,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,125,44,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,110,41,125,40,41,59,60,47,115,99,114,105,112,116,62,10,60,47,104,101,97,100,62,10,60,98,111,100,121,62,10,60,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,99,108,97,115,115,61,34,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,34,62,10,32,32,32,32,83,111,114,114,121,44,32,121,111,117,32,100,111,110,39,116,32,115,101,101,109,32,116,111,32,104,97,118,101,32,74,97,118,97,83,99,114,105,112,116,32,101,110,97,98,108,101,100,32,111,114,32,121,111,117,114,32,98,114,111,119,115,101,114,10,32,32,32,32,100,111,101,115,110,39,116,32,115,117,112,112,111,114,116,32,105,116,46,60,98,114,32,47,62,84,104,105,115,32,119,101,98,115,105,116,101,32,114,101,113,117,105,114,101,115,32,74,97,118,97,83,99,114,105,112,116,32,116,111,32,102,117,110,99,116,105,111,110,46,10,32,32,32,32,80,108,101,97,115,101,32,101,110,97,98,108,101,32,74,97,118,97,83,99,114,105,112,116,32,105,110,32,121,111,117,114,32,98,114,111,119,115,101,114,32,115,101,116,116,105,110,103,115,32,116,111,32,99,111,110,116,105,110,117,101,46,10,60,47,100,105,118,62,10,60,47,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,105,100,61,34,97,112,112,34,62,60,47,100,105,118,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,62,33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,101,61,100,111,99,117,109,101,110,116,44,116,61,101,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,105,102,40,33,40,34,110,111,77,111,100,117,108,101,34,105,110,32,116,41,38,38,34,111,110,98,101,102,111,114,101,108,111,97,100,34,105,110,32,116,41,123,118,97,114,32,110,61,33,49,59,101,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,34,98,101,102,111,114,101,108,111,97,100,34,44,40,102,117,110,99,116,105,111,110,40,101,41,123,105,102,40,101,46,116,97,114,103,101,116,61,61,61,116,41,110,61,33,48,59,101,108,115,101,32,105,102,40,33,101,46,116,97,114,103,101,116,46,104,97,115,65,116,116,114,105,98,117,116,101,40,34,110,111,109,111,100,117,108,101,34,41,124,124,33,110,41,114,101,116,117,114,110,59,101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,125,41,44,33,48,41,44,116,46,116,121,112,101,61,34,109,111,100,117,108,101,34,44,116,46,115,114,99,61,34,46,34,44,101,46,104,101,97,100,46,97,112,112,101,110,100,67,104,105,108,100,40,116,41,44,116,46,114,101,109,111,118,101,40,41,125,125,40,41,59,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,32,115,114,99,61,34,47,97,115,115,101,116,115,47,112,111,108,121,102,105,108,108,115,45,108,101,103,97,99,121,45,67,79,113,66,57,109,78,98,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,34,32,100,97,116,97,45,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,108,101,103,97,99,121,45,67,76,54,103,50,75,108,67,46,106,115,34,62,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,60,47,115,99,114,105,112,116,62,10,60,47,98,111,100,121,62,10,60,47,104,116,109,108,62,10]}
+[2024-04-24T12:24:52.199Z] warn: Invalid data for widget 'uptimekuma' endpoint 'status-page/heartbeat':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token < in JSON at position 0
+Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,10,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,10,60,104,101,97,100,62,10,32,32,32,32,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,85,84,70,45,56,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,32,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,46,48,44,32,118,105,101,119,112,111,114,116,45,102,105,116,61,99,111,118,101,114,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,34,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,115,118,103,43,120,109,108,34,32,104,114,101,102,61,34,47,105,99,111,110,46,115,118,103,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,109,97,110,105,102,101,115,116,46,106,115,111,110,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,105,100,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,85,112,116,105,109,101,32,75,117,109,97,32,109,111,110,105,116,111,114,105,110,103,32,116,111,111,108,34,32,47,62,10,32,32,32,32,60,116,105,116,108,101,62,85,112,116,105,109,101,32,75,117,109,97,60,47,116,105,116,108,101,62,10,32,32,32,32,60,115,116,121,108,101,62,32,32,32,32,32,32,32,32,46,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,32,123,10,32,32,32,32,32,32,32,32,32,32,32,32,102,111,110,116,45,115,105,122,101,58,32,50,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,116,101,120,116,45,97,108,105,103,110,58,32,99,101,110,116,101,114,59,10,32,32,32,32,32,32,32,32,32,32,32,32,112,97,100,100,105,110,103,58,32,49,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,120,45,119,105,100,116,104,58,32,53,48,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,114,103,105,110,58,32,48,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,60,47,115,116,121,108,101,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,32,99,114,111,115,115,111,114,105,103,105,110,32,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,66,82,116,105,68,109,103,85,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,99,114,111,115,115,111,114,105,103,105,110,32,104,114,101,102,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,67,108,114,90,48,83,97,82,46,99,115,115,34,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,105,109,112,111,114,116,46,109,101,116,97,46,117,114,108,59,105,109,112,111,114,116,40,34,95,34,41,46,99,97,116,99,104,40,40,41,61,62,49,41,59,97,115,121,110,99,32,102,117,110,99,116,105,111,110,42,32,103,40,41,123,125,59,105,102,40,108,111,99,97,116,105,111,110,46,112,114,111,116,111,99,111,108,33,61,34,102,105,108,101,58,34,41,123,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,61,116,114,117,101,125,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,33,102,117,110,99,116,105,111,110,40,41,123,105,102,40,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,41,114,101,116,117,114,110,59,99,111,110,115,111,108,101,46,119,97,114,110,40,34,118,105,116,101,58,32,108,111,97,100,105,110,103,32,108,101,103,97,99,121,32,99,104,117,110,107,115,44,32,115,121,110,116,97,120,32,101,114,114,111,114,32,97,98,111,118,101,32,97,110,100,32,116,104,101,32,115,97,109,101,32,101,114,114,111,114,32,98,101,108,111,119,32,115,104,111,117,108,100,32,98,101,32,105,103,110,111,114,101,100,34,41,59,118,97,114,32,101,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,41,44,110,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,110,46,115,114,99,61,101,46,115,114,99,44,110,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,125,44,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,110,41,125,40,41,59,60,47,115,99,114,105,112,116,62,10,60,47,104,101,97,100,62,10,60,98,111,100,121,62,10,60,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,99,108,97,115,115,61,34,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,34,62,10,32,32,32,32,83,111,114,114,121,44,32,121,111,117,32,100,111,110,39,116,32,115,101,101,109,32,116,111,32,104,97,118,101,32,74,97,118,97,83,99,114,105,112,116,32,101,110,97,98,108,101,100,32,111,114,32,121,111,117,114,32,98,114,111,119,115,101,114,10,32,32,32,32,100,111,101,115,110,39,116,32,115,117,112,112,111,114,116,32,105,116,46,60,98,114,32,47,62,84,104,105,115,32,119,101,98,115,105,116,101,32,114,101,113,117,105,114,101,115,32,74,97,118,97,83,99,114,105,112,116,32,116,111,32,102,117,110,99,116,105,111,110,46,10,32,32,32,32,80,108,101,97,115,101,32,101,110,97,98,108,101,32,74,97,118,97,83,99,114,105,112,116,32,105,110,32,121,111,117,114,32,98,114,111,119,115,101,114,32,115,101,116,116,105,110,103,115,32,116,111,32,99,111,110,116,105,110,117,101,46,10,60,47,100,105,118,62,10,60,47,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,105,100,61,34,97,112,112,34,62,60,47,100,105,118,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,62,33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,101,61,100,111,99,117,109,101,110,116,44,116,61,101,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,105,102,40,33,40,34,110,111,77,111,100,117,108,101,34,105,110,32,116,41,38,38,34,111,110,98,101,102,111,114,101,108,111,97,100,34,105,110,32,116,41,123,118,97,114,32,110,61,33,49,59,101,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,34,98,101,102,111,114,101,108,111,97,100,34,44,40,102,117,110,99,116,105,111,110,40,101,41,123,105,102,40,101,46,116,97,114,103,101,116,61,61,61,116,41,110,61,33,48,59,101,108,115,101,32,105,102,40,33,101,46,116,97,114,103,101,116,46,104,97,115,65,116,116,114,105,98,117,116,101,40,34,110,111,109,111,100,117,108,101,34,41,124,124,33,110,41,114,101,116,117,114,110,59,101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,125,41,44,33,48,41,44,116,46,116,121,112,101,61,34,109,111,100,117,108,101,34,44,116,46,115,114,99,61,34,46,34,44,101,46,104,101,97,100,46,97,112,112,101,110,100,67,104,105,108,100,40,116,41,44,116,46,114,101,109,111,118,101,40,41,125,125,40,41,59,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,32,115,114,99,61,34,47,97,115,115,101,116,115,47,112,111,108,121,102,105,108,108,115,45,108,101,103,97,99,121,45,67,79,113,66,57,109,78,98,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,34,32,100,97,116,97,45,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,108,101,103,97,99,121,45,67,76,54,103,50,75,108,67,46,106,115,34,62,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,60,47,115,99,114,105,112,116,62,10,60,47,98,111,100,121,62,10,60,47,104,116,109,108,62,10]}
+[2024-04-24T12:24:52.915Z] warn: Invalid data for widget 'uptimekuma' endpoint 'status-page/heartbeat':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token < in JSON at position 0
+Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,10,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,10,60,104,101,97,100,62,10,32,32,32,32,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,85,84,70,45,56,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,32,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,46,48,44,32,118,105,101,119,112,111,114,116,45,102,105,116,61,99,111,118,101,114,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,34,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,115,118,103,43,120,109,108,34,32,104,114,101,102,61,34,47,105,99,111,110,46,115,118,103,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,109,97,110,105,102,101,115,116,46,106,115,111,110,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,105,100,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,85,112,116,105,109,101,32,75,117,109,97,32,109,111,110,105,116,111,114,105,110,103,32,116,111,111,108,34,32,47,62,10,32,32,32,32,60,116,105,116,108,101,62,85,112,116,105,109,101,32,75,117,109,97,60,47,116,105,116,108,101,62,10,32,32,32,32,60,115,116,121,108,101,62,32,32,32,32,32,32,32,32,46,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,32,123,10,32,32,32,32,32,32,32,32,32,32,32,32,102,111,110,116,45,115,105,122,101,58,32,50,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,116,101,120,116,45,97,108,105,103,110,58,32,99,101,110,116,101,114,59,10,32,32,32,32,32,32,32,32,32,32,32,32,112,97,100,100,105,110,103,58,32,49,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,120,45,119,105,100,116,104,58,32,53,48,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,114,103,105,110,58,32,48,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,60,47,115,116,121,108,101,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,32,99,114,111,115,115,111,114,105,103,105,110,32,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,66,82,116,105,68,109,103,85,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,99,114,111,115,115,111,114,105,103,105,110,32,104,114,101,102,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,67,108,114,90,48,83,97,82,46,99,115,115,34,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,105,109,112,111,114,116,46,109,101,116,97,46,117,114,108,59,105,109,112,111,114,116,40,34,95,34,41,46,99,97,116,99,104,40,40,41,61,62,49,41,59,97,115,121,110,99,32,102,117,110,99,116,105,111,110,42,32,103,40,41,123,125,59,105,102,40,108,111,99,97,116,105,111,110,46,112,114,111,116,111,99,111,108,33,61,34,102,105,108,101,58,34,41,123,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,61,116,114,117,101,125,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,33,102,117,110,99,116,105,111,110,40,41,123,105,102,40,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,41,114,101,116,117,114,110,59,99,111,110,115,111,108,101,46,119,97,114,110,40,34,118,105,116,101,58,32,108,111,97,100,105,110,103,32,108,101,103,97,99,121,32,99,104,117,110,107,115,44,32,115,121,110,116,97,120,32,101,114,114,111,114,32,97,98,111,118,101,32,97,110,100,32,116,104,101,32,115,97,109,101,32,101,114,114,111,114,32,98,101,108,111,119,32,115,104,111,117,108,100,32,98,101,32,105,103,110,111,114,101,100,34,41,59,118,97,114,32,101,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,41,44,110,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,110,46,115,114,99,61,101,46,115,114,99,44,110,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,125,44,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,110,41,125,40,41,59,60,47,115,99,114,105,112,116,62,10,60,47,104,101,97,100,62,10,60,98,111,100,121,62,10,60,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,99,108,97,115,115,61,34,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,34,62,10,32,32,32,32,83,111,114,114,121,44,32,121,111,117,32,100,111,110,39,116,32,115,101,101,109,32,116,111,32,104,97,118,101,32,74,97,118,97,83,99,114,105,112,116,32,101,110,97,98,108,101,100,32,111,114,32,121,111,117,114,32,98,114,111,119,115,101,114,10,32,32,32,32,100,111,101,115,110,39,116,32,115,117,112,112,111,114,116,32,105,116,46,60,98,114,32,47,62,84,104,105,115,32,119,101,98,115,105,116,101,32,114,101,113,117,105,114,101,115,32,74,97,118,97,83,99,114,105,112,116,32,116,111,32,102,117,110,99,116,105,111,110,46,10,32,32,32,32,80,108,101,97,115,101,32,101,110,97,98,108,101,32,74,97,118,97,83,99,114,105,112,116,32,105,110,32,121,111,117,114,32,98,114,111,119,115,101,114,32,115,101,116,116,105,110,103,115,32,116,111,32,99,111,110,116,105,110,117,101,46,10,60,47,100,105,118,62,10,60,47,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,105,100,61,34,97,112,112,34,62,60,47,100,105,118,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,62,33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,101,61,100,111,99,117,109,101,110,116,44,116,61,101,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,105,102,40,33,40,34,110,111,77,111,100,117,108,101,34,105,110,32,116,41,38,38,34,111,110,98,101,102,111,114,101,108,111,97,100,34,105,110,32,116,41,123,118,97,114,32,110,61,33,49,59,101,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,34,98,101,102,111,114,101,108,111,97,100,34,44,40,102,117,110,99,116,105,111,110,40,101,41,123,105,102,40,101,46,116,97,114,103,101,116,61,61,61,116,41,110,61,33,48,59,101,108,115,101,32,105,102,40,33,101,46,116,97,114,103,101,116,46,104,97,115,65,116,116,114,105,98,117,116,101,40,34,110,111,109,111,100,117,108,101,34,41,124,124,33,110,41,114,101,116,117,114,110,59,101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,125,41,44,33,48,41,44,116,46,116,121,112,101,61,34,109,111,100,117,108,101,34,44,116,46,115,114,99,61,34,46,34,44,101,46,104,101,97,100,46,97,112,112,101,110,100,67,104,105,108,100,40,116,41,44,116,46,114,101,109,111,118,101,40,41,125,125,40,41,59,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,32,115,114,99,61,34,47,97,115,115,101,116,115,47,112,111,108,121,102,105,108,108,115,45,108,101,103,97,99,121,45,67,79,113,66,57,109,78,98,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,34,32,100,97,116,97,45,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,108,101,103,97,99,121,45,67,76,54,103,50,75,108,67,46,106,115,34,62,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,60,47,115,99,114,105,112,116,62,10,60,47,98,111,100,121,62,10,60,47,104,116,109,108,62,10]}
+[2024-04-24T12:24:52.922Z] warn: Invalid data for widget 'uptimekuma' endpoint 'status-page':
+Expected:undefined
+Parse error: SyntaxError: Unexpected token < in JSON at position 0
+Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,10,60,104,116,109,108,32,108,97,110,103,61,34,101,110,34,62,10,60,104,101,97,100,62,10,32,32,32,32,60,109,101,116,97,32,99,104,97,114,115,101,116,61,34,85,84,70,45,56,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,118,105,101,119,112,111,114,116,34,32,99,111,110,116,101,110,116,61,34,119,105,100,116,104,61,100,101,118,105,99,101,45,119,105,100,116,104,44,32,105,110,105,116,105,97,108,45,115,99,97,108,101,61,49,46,48,44,32,118,105,101,119,112,111,114,116,45,102,105,116,61,99,111,118,101,114,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,34,32,115,105,122,101,115,61,34,49,56,48,120,49,56,48,34,32,104,114,101,102,61,34,47,97,112,112,108,101,45,116,111,117,99,104,45,105,99,111,110,46,112,110,103,34,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,105,99,111,110,34,32,116,121,112,101,61,34,105,109,97,103,101,47,115,118,103,43,120,109,108,34,32,104,114,101,102,61,34,47,105,99,111,110,46,115,118,103,34,32,47,62,10,32,32,32,32,60,108,105,110,107,32,114,101,108,61,34,109,97,110,105,102,101,115,116,34,32,104,114,101,102,61,34,47,109,97,110,105,102,101,115,116,46,106,115,111,110,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,105,100,61,34,116,104,101,109,101,45,99,111,108,111,114,34,32,99,111,110,116,101,110,116,61,34,34,32,47,62,10,32,32,32,32,60,109,101,116,97,32,110,97,109,101,61,34,100,101,115,99,114,105,112,116,105,111,110,34,32,99,111,110,116,101,110,116,61,34,85,112,116,105,109,101,32,75,117,109,97,32,109,111,110,105,116,111,114,105,110,103,32,116,111,111,108,34,32,47,62,10,32,32,32,32,60,116,105,116,108,101,62,85,112,116,105,109,101,32,75,117,109,97,60,47,116,105,116,108,101,62,10,32,32,32,32,60,115,116,121,108,101,62,32,32,32,32,32,32,32,32,46,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,32,123,10,32,32,32,32,32,32,32,32,32,32,32,32,102,111,110,116,45,115,105,122,101,58,32,50,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,116,101,120,116,45,97,108,105,103,110,58,32,99,101,110,116,101,114,59,10,32,32,32,32,32,32,32,32,32,32,32,32,112,97,100,100,105,110,103,58,32,49,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,120,45,119,105,100,116,104,58,32,53,48,48,112,120,59,10,32,32,32,32,32,32,32,32,32,32,32,32,109,97,114,103,105,110,58,32,48,32,97,117,116,111,59,10,32,32,32,32,32,32,32,32,125,10,32,32,32,32,60,47,115,116,121,108,101,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,32,99,114,111,115,115,111,114,105,103,105,110,32,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,66,82,116,105,68,109,103,85,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,108,105,110,107,32,114,101,108,61,34,115,116,121,108,101,115,104,101,101,116,34,32,99,114,111,115,115,111,114,105,103,105,110,32,104,114,101,102,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,67,108,114,90,48,83,97,82,46,99,115,115,34,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,105,109,112,111,114,116,46,109,101,116,97,46,117,114,108,59,105,109,112,111,114,116,40,34,95,34,41,46,99,97,116,99,104,40,40,41,61,62,49,41,59,97,115,121,110,99,32,102,117,110,99,116,105,111,110,42,32,103,40,41,123,125,59,105,102,40,108,111,99,97,116,105,111,110,46,112,114,111,116,111,99,111,108,33,61,34,102,105,108,101,58,34,41,123,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,61,116,114,117,101,125,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,116,121,112,101,61,34,109,111,100,117,108,101,34,62,33,102,117,110,99,116,105,111,110,40,41,123,105,102,40,119,105,110,100,111,119,46,95,95,118,105,116,101,95,105,115,95,109,111,100,101,114,110,95,98,114,111,119,115,101,114,41,114,101,116,117,114,110,59,99,111,110,115,111,108,101,46,119,97,114,110,40,34,118,105,116,101,58,32,108,111,97,100,105,110,103,32,108,101,103,97,99,121,32,99,104,117,110,107,115,44,32,115,121,110,116,97,120,32,101,114,114,111,114,32,97,98,111,118,101,32,97,110,100,32,116,104,101,32,115,97,109,101,32,101,114,114,111,114,32,98,101,108,111,119,32,115,104,111,117,108,100,32,98,101,32,105,103,110,111,114,101,100,34,41,59,118,97,114,32,101,61,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,41,44,110,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,110,46,115,114,99,61,101,46,115,114,99,44,110,46,111,110,108,111,97,100,61,102,117,110,99,116,105,111,110,40,41,123,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,125,44,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,110,41,125,40,41,59,60,47,115,99,114,105,112,116,62,10,60,47,104,101,97,100,62,10,60,98,111,100,121,62,10,60,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,99,108,97,115,115,61,34,110,111,115,99,114,105,112,116,45,109,101,115,115,97,103,101,34,62,10,32,32,32,32,83,111,114,114,121,44,32,121,111,117,32,100,111,110,39,116,32,115,101,101,109,32,116,111,32,104,97,118,101,32,74,97,118,97,83,99,114,105,112,116,32,101,110,97,98,108,101,100,32,111,114,32,121,111,117,114,32,98,114,111,119,115,101,114,10,32,32,32,32,100,111,101,115,110,39,116,32,115,117,112,112,111,114,116,32,105,116,46,60,98,114,32,47,62,84,104,105,115,32,119,101,98,115,105,116,101,32,114,101,113,117,105,114,101,115,32,74,97,118,97,83,99,114,105,112,116,32,116,111,32,102,117,110,99,116,105,111,110,46,10,32,32,32,32,80,108,101,97,115,101,32,101,110,97,98,108,101,32,74,97,118,97,83,99,114,105,112,116,32,105,110,32,121,111,117,114,32,98,114,111,119,115,101,114,32,115,101,116,116,105,110,103,115,32,116,111,32,99,111,110,116,105,110,117,101,46,10,60,47,100,105,118,62,10,60,47,110,111,115,99,114,105,112,116,62,10,60,100,105,118,32,105,100,61,34,97,112,112,34,62,60,47,100,105,118,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,62,33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,101,61,100,111,99,117,109,101,110,116,44,116,61,101,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,105,102,40,33,40,34,110,111,77,111,100,117,108,101,34,105,110,32,116,41,38,38,34,111,110,98,101,102,111,114,101,108,111,97,100,34,105,110,32,116,41,123,118,97,114,32,110,61,33,49,59,101,46,97,100,100,69,118,101,110,116,76,105,115,116,101,110,101,114,40,34,98,101,102,111,114,101,108,111,97,100,34,44,40,102,117,110,99,116,105,111,110,40,101,41,123,105,102,40,101,46,116,97,114,103,101,116,61,61,61,116,41,110,61,33,48,59,101,108,115,101,32,105,102,40,33,101,46,116,97,114,103,101,116,46,104,97,115,65,116,116,114,105,98,117,116,101,40,34,110,111,109,111,100,117,108,101,34,41,124,124,33,110,41,114,101,116,117,114,110,59,101,46,112,114,101,118,101,110,116,68,101,102,97,117,108,116,40,41,125,41,44,33,48,41,44,116,46,116,121,112,101,61,34,109,111,100,117,108,101,34,44,116,46,115,114,99,61,34,46,34,44,101,46,104,101,97,100,46,97,112,112,101,110,100,67,104,105,108,100,40,116,41,44,116,46,114,101,109,111,118,101,40,41,125,125,40,41,59,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,112,111,108,121,102,105,108,108,34,32,115,114,99,61,34,47,97,115,115,101,116,115,47,112,111,108,121,102,105,108,108,115,45,108,101,103,97,99,121,45,67,79,113,66,57,109,78,98,46,106,115,34,62,60,47,115,99,114,105,112,116,62,10,32,32,60,115,99,114,105,112,116,32,110,111,109,111,100,117,108,101,32,99,114,111,115,115,111,114,105,103,105,110,32,105,100,61,34,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,34,32,100,97,116,97,45,115,114,99,61,34,47,97,115,115,101,116,115,47,105,110,100,101,120,45,108,101,103,97,99,121,45,67,76,54,103,50,75,108,67,46,106,115,34,62,83,121,115,116,101,109,46,105,109,112,111,114,116,40,100,111,99,117,109,101,110,116,46,103,101,116,69,108,101,109,101,110,116,66,121,73,100,40,39,118,105,116,101,45,108,101,103,97,99,121,45,101,110,116,114,121,39,41,46,103,101,116,65,116,116,114,105,98,117,116,101,40,39,100,97,116,97,45,115,114,99,39,41,41,60,47,115,99,114,105,112,116,62,10,60,47,98,111,100,121,62,10,60,47,104,116,109,108,62,10]}

@@ -1,0 +1,23 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    volumes:
+      - ./config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock # pass local proxy
+      - ./data/images:/app/public/images
+      - ./data/icons:/app/public/icons
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.home.rule=Host(`home.alvaro.civica.lab`)"
+      - "traefik.http.routers.home.entrypoints=http"
+      - "traefik.docker.network=LAN"
+      - "traefik.http.services.home.loadbalancer.server.port=3000"
+    networks:
+      - LAN
+networks:
+  LAN:
+    external: true
